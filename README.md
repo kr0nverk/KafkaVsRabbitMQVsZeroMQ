@@ -1,4 +1,4 @@
-Apache Kafka + Zookeeper на виртуальной машине
+____Apache Kafka + Zookeeper на виртуальной машине
 
 Устанавливаем JRE
 sudo apt-get update
