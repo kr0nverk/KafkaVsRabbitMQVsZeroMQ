@@ -1,9 +1,10 @@
 # Apache Kafka + Zookeeper на виртуальной машине
 
 Устанавливаем JRE
+```
 sudo apt-get update
 sudo apt-get install default-jre
-
+```
 Если всё прошло ок, то Вы можете ввести команду
 java -version
 
