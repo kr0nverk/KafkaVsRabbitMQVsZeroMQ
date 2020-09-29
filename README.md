@@ -1,4 +1,4 @@
-____Apache Kafka + Zookeeper на виртуальной машине
+# Apache Kafka + Zookeeper на виртуальной машине
 
 Устанавливаем JRE
 sudo apt-get update
@@ -58,3 +58,5 @@ chown -R kafka:nogroup /var/lib/kafka
 /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
 
 Теперь, набирая текст в консоли-продюсере, при нажатии на Enter, он будет появляться в консоли-консьюмере.
+
+# для запуска кролика и нуля воспользуйтесь файлами cpp
