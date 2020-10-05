@@ -3,7 +3,7 @@ using KafkaNet.Model;
 using KafkaNet.Protocol;
 
 static void Main(string[] args) {
-    string payload ="Welcome to Kafka!";
+    string payload ="Hello from Kafka!";
     string topic ="IDGTestTopic";
     Message msg = new Message(payload);
     Uri uri = new Uri(“http://localhost:9092”);
